@@ -10,3 +10,5 @@ services:
       DATABASE_URL: postgres://postgres@db:5432/msf_dev?pool=200&timeout=5
     volumes:
       - .:/usr/src/metasploit-framework
+    ports:
+      - 8080:8080
